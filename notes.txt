@@ -1,0 +1,5 @@
+https://www.altimetrik.com/blog/generative-ai-for-document-classification
+
+We have a document that was scanned using OCR. The content is `${text}`. You need to classify the document based on the provided OCR content. The document could be one of these: W2, Drivers License, Pay stub, Employment Verification Letter, or Mortgage Application. Suppose the provided content does not match with any of those documents. In that case, you must reply NO_MATCH, and in the following line, you must give a human-understandable message about the result and why that determination was made in under three sentences. If the provided content matches, return the values found, including the document type. If the social security number is part of the values, obfuscate the first five digits.
+
+https://colab.research.google.com/drive/1Zlf2aIjwDKS_QYMYwNEapttxGaSGLdOA?usp=sharing
